@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>chocoIsoPackage.extension</id>
+    <version>0.1.0</version>
+    <title>Chocolatey ISO helper extension methods.</title>
+    <authors>Tim Brown</authors>
+    <owners>Tim Brown</owners>
+    <projectUrl>https://github.com/timbrown5/install-chocoIsoPackage</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds chocolatey methods to help with installing windows packages using ISO images.</description>
+    <summary>Chocolatey extension methods to install/uninstall packages using ISO images.</summary>
+    <tags>Chocolatey extension ISO Install-ChocolateyIsoPackage Uninstall-ChocolateyIsoPackage</tags>
+  </metadata>
+</package>
