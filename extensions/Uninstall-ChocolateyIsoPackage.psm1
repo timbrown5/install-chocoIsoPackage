@@ -63,9 +63,7 @@ param(
         imdisk -a -f $file -m $drive
 
         Write-Debug "Uninstalling $packageName using iso.";
-        Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $installerPath $validExitCodes
-        Install-ChocolateyPackage $packageName $installerType $silentArgs $installerPath -validExitCodes $validExitCodes
-   
+        Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $installerPath -validExitCodes $validExitCodes
     }
     finally
     {

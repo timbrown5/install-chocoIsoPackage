@@ -10,7 +10,7 @@ Downloads an ISO file from a url, mounts the iso and installs a program on your 
 The name of the VisualStudio package - this is arbitrary.
 It's recommended you call it the same as your nuget package id.
 
-.PARAMETER UninstallerName
+.PARAMETER InstallerName
 This name of the installer executable - i.e. 'vs_community.exe'.
 
 .PARAMETER SilentArgs
@@ -28,11 +28,11 @@ OPTIONAL - If there is an x64 installer to download, please include it here. If 
 .PARAMETER Checksum
 OPTIONAL (Right now) - This allows a checksum to be validated for files that are not local
 
-.PARAMETER Checksum64
-OPTIONAL (Right now) - This allows a checksum to be validated for files that are not local
-
 .PARAMETER ChecksumType
 OPTIONAL (Right now) - 'md5' or 'sha1' - defaults to 'md5'
+
+.PARAMETER Checksum64
+OPTIONAL (Right now) - This allows a checksum to be validated for files that are not local
 
 .PARAMETER ChecksumType64
 OPTIONAL (Right now) - 'md5' or 'sha1' - defaults to ChecksumType
